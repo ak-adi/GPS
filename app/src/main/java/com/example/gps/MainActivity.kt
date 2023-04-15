@@ -176,9 +176,7 @@ class MainActivity : AppCompatActivity() {
             binding.countryText.text = "Your Country: "+getCountryName(lastLocation.latitude,lastLocation.longitude)
 
         }
-
     }
-
     //function to get the city name
     private fun getCityName(lat:Double, lon:Double):String{
         var cityName=""

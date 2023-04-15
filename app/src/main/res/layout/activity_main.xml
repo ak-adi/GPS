@@ -16,8 +16,8 @@
             android:id="@+id/countryText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
             android:layout_margin="8dp"
+            android:padding="8dp"
             android:text="Your Country:"
             android:textSize="20sp" />
 
@@ -64,8 +64,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_bg"
-            android:backgroundTint="@color/primary_color_blue"
+            app:background="@drawable/rounded_bg"
+            app:backgroundTint="@color/primary_color_blue"
             android:padding="10dp"
             android:text="Get Location"
             android:textSize="20sp" />
